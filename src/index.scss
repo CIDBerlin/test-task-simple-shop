@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: url('./assets/img/bg.png') center center/cover no-repeat;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+* {
+    flex: 0 0 auto;
+    box-sizing: border-box;
+    user-select: none;
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    &::-webkit-scrollbar {
+        appearance: none;
+        width: 2px;
+        background-color: #454545;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: #0177ff;
+    }
+}

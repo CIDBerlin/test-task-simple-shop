@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 670px;
+    height: 100px;
+    margin: 16px 0 0 0;
+    padding: 0 40px 0 32px;
+    background-color: rgba(92, 96, 107, 0.25);
+    color: #fff;
+    &__item {
+        padding: 10px 32px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        transition: background-color 100ms linear;
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+    }
+}

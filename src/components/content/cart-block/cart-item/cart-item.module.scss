@@ -1,0 +1,38 @@
+.item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 660px;
+    height: 56px;
+    padding: 0 66px 0 32px;
+    color: #fff;
+    background-color: rgba(92, 96, 107, 0.25);
+    margin: 0 0 16px 0;
+    &__remove {
+        position: absolute;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        width: 24px;
+        height: 24px;
+        right: 18px;
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 20px;
+            height: 20px;
+            object-fit: cover;
+        }
+    }
+    &:last-child {
+        margin: 0;
+    }
+    &:hover {
+        background-color: rgba(92, 96, 107, 0.55);
+        .item__remove {
+            display: flex;
+        }
+    }
+}
